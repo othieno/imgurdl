@@ -1,14 +1,13 @@
 imgurdl
 =======
 
-imgurdl is a small linux shell script used to download imgur albums. I wrote this
+imgurdl is a GNU/Linux bash script used to download imgur albums. I wrote this
 specifically for large albums because the 'download' option provided by imgur doesn't
-always work like it's supposed to.
+always work like it's intended to.
 
-The script relies on wget, grep, sed and some simple regular expressions.
+The script does not use the imgur API but rather relies on wget, grep, sed, and some
+simple regular expressions.
 
-To run, simply launch the script with the sole parameter being the URL of the album.
-For example, __./imgurdl http://imgur.com/a/wtwuu__
+To get more help, run the script with no arguments. This will display usage help by default.
 
-
-Tested on Debian 3.2.41-2 x86_64 GNU/Linux.
+Written and tested on Debian 3.11.10-1 (2013-12-04) x86_64 GNU/Linux.
